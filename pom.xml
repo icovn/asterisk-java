@@ -76,16 +76,15 @@
 		<developerConnection>scm:git:git@github.com:asterisk-java/asterisk-java.git</developerConnection>
 		<url>https://github.com/asterisk-java/asterisk-java</url>
 	</scm>
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-		</repository>
-	</distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>icovn-maven-repository</name>
+      <url>
+        https://maven.pkg.github.com/icovn/asterisk-java
+      </url>
+    </repository>
+  </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>

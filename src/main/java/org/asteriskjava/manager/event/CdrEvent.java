@@ -67,6 +67,9 @@ public class CdrEvent extends ManagerEvent
     private String uniqueId;
     private String userField;
     private String recordfile;
+    private String recordingfile;
+    private String did;
+    private String calldate;
 
     /**
      * @param source
@@ -564,4 +567,39 @@ public class CdrEvent extends ManagerEvent
 	public void setRecordfile(String recordfile) {
 		this.recordfile = recordfile;
 	}
+  
+  /**
+   * Returns record filename.
+   * @return record filename.
+   */
+  
+  public String getRecordingfile() {
+    return recordingfile;
+  }
+  
+  /**
+   * Sets record filename.
+   *
+   * @param recordingfile record filename.
+   */
+  
+  public void setRecordingfile(String recordingfile) {
+    this.recordingfile = recordingfile;
+  }
+  
+  public String getDid() {
+    return did;
+  }
+  
+  public void setDid(String did) {
+    this.did = did;
+  }
+  
+  public String getCalldate() {
+    return calldate;
+  }
+  
+  public void setCalldate(String calldate) {
+    this.calldate = calldate;
+  }
 }
