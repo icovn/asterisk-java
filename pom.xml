@@ -11,7 +11,7 @@
 
 
 	<properties>
-        <releaseVersion>3.12.0</releaseVersion>
+        <releaseVersion>3.12.0.1</releaseVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -76,15 +76,15 @@
 		<developerConnection>scm:git:git@github.com:asterisk-java/asterisk-java.git</developerConnection>
 		<url>https://github.com/asterisk-java/asterisk-java</url>
 	</scm>
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>icovn-maven-repository</name>
-      <url>
-        https://maven.pkg.github.com/icovn/asterisk-java
-      </url>
-    </repository>
-  </distributionManagement>
+  	<distributionManagement>
+		<repository>
+	  		<id>github</id>
+	  		<name>icovn-maven-repository</name>
+	  		<url>
+				https://maven.pkg.github.com/icovn/asterisk-java
+	  		</url>
+		</repository>
+  	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
