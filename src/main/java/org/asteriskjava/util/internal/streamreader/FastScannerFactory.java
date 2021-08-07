@@ -12,7 +12,7 @@ public class FastScannerFactory
 {
     private static final Log logger = LogFactory.getLog(FastScannerFactory.class);
 
-    private static volatile boolean useLegacyScanner = false;
+    private static volatile boolean useLegacyScanner = true;
 
     public static FastScanner getReader(Readable reader, Pattern pattern)
     {

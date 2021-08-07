@@ -11,7 +11,7 @@
 
 
 	<properties>
-        <releaseVersion>3.11.0</releaseVersion>
+        <releaseVersion>3.11.0.210807_2</releaseVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -77,13 +77,12 @@
 		<url>https://github.com/asterisk-java/asterisk-java</url>
 	</scm>
 	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
 		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+			<id>github</id>
+			<name>icovn-maven-repository</name>
+			<url>
+				https://maven.pkg.github.com/icovn/asterisk-java
+			</url>
 		</repository>
 	</distributionManagement>
 	<build>
